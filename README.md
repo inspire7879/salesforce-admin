@@ -126,7 +126,9 @@
 
 
 ## Field Dependencies
-- 
+- Use Case
+  - Lets say you have created country state, city field (picklist)
+  - When user creates a new student and selects the country as India, then state should display only Indian States
 - Setup => Object Manager -> Student -> Fields and Relationship -> Field Dependencies
 - Controlling Field -> Country
 - Dependent Field -> State
