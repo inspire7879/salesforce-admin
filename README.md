@@ -121,4 +121,13 @@
    - Click on the Count radio button -> Next
    - Verify System Administrator -> Next -> Next -> Save
  
+### Hierarchial Relationship
+- Can be created on the user object
 
+
+## Field Dependencies
+- 
+- Setup => Object Manager -> Student -> Fields and Relationship -> Field Dependencies
+- Controlling Field -> Country
+- Dependent Field -> State
+- 
