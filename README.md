@@ -1,6 +1,6 @@
 # Sales Force
 
-## Important Poits
+## Important Points
 1. Sales Force provides default feature which are called as Standard Objects/Apps
 2. Standard Application can be customized to limited 
 3. We Need to create Object for which we will be creating the TAB   
