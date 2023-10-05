@@ -115,4 +115,10 @@
    - sum
    - count
 - Ex : Student (child) and batches (parent)
+   - Goto batch object -> fields & releationship -> New -> Roll-up Summary -> Next
+   - Field Label - Student Counts -> Next
+   - Summary Object -> Select from Drop Down
+   - Click on the Count radio button -> Next
+   - Verify System Administrator -> Next -> Next -> Save
+ 
 
