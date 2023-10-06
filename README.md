@@ -133,3 +133,14 @@
 - Controlling Field -> Country
 - Dependent Field -> State
 - 
+## Formula Fields
+- Formula fields are readonly
+- SalesForce will calculate the data based on the user defined formula/expression
+- compilation capacity is 4000 charecters
+- Go to Object -> Fields & Relationship -> New -> Formula
+  - Field Name  =
+  - Field Label =
+  - Return Type
+  - Next
+  - Formula Expression - Simple or Advanced     
+- 
