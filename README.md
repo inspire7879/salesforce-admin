@@ -161,8 +161,10 @@
   -  Step # 3 : Create Page Layout for US
      - Object -> Page Layout -> New -> Remove SSN & National Insurance Nbr Fields
   -  Step # 4 : Create Page Layout for Uk
-  -  Step # 4 : Create Record Types
+  -  Step # 4 : Create Record Types (follow the below process for other countries)
      - Object -> Record Types -> New
-       - Enter Field Name and Field Labe;
+       - Enter Field Name and Field Label -> Bharat;
        - Select System Adminstrator
-       - Select Page Layout 
+       - Select Page Layout
+       - Click Save
+       - Select the pick list by editing (add only Bharat data and remove the other countries data from the select boxes)
