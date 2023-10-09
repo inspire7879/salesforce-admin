@@ -132,7 +132,13 @@
 - Setup => Object Manager -> Student -> Fields and Relationship -> Field Dependencies
 - Controlling Field -> Country
 - Dependent Field -> State
-- 
+
+## PickList
+- 3 types of picklists:
+  - Standard
+  - Custom
+  - Custom Multi-Select
+-
 ## Formula Fields
 - Formula fields are readonly
 - SalesForce will calculate the data based on the user defined formula/expression
@@ -168,3 +174,10 @@
        - Select Page Layout
        - Click Save
        - Select the pick list by editing (add only Bharat data and remove the other countries data from the select boxes)
+
+## Validation Rules
+- checks for the below before saving the record in the salesforce db
+  - field length
+  - field type
+  - unique
+- 
