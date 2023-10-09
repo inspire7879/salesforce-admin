@@ -143,4 +143,26 @@
   - Return Type
   - Next
   - Formula Expression - Simple or Advanced     
+
+
+## Page Layout
 - 
+
+## Record Types
+- assign different page layouts, different picklist values to different uses associated to different profiles
+- Record Types indirectly controls the Page Layout
+- Use Case
+  - Display the unique identified in the Student Object based on the country
+    - SSN (US), Aadhar Number (Bharat), Nation Insurance Number (UK)
+  - 3 Page Layouts are requirement to meet the above requirement
+  - Step # 1 : Create 3 fields (SSN, Aadhar Nbr, National Insurance Nbr) in the student object
+  -  Step # 2 : Create Page Layout for Bharat
+     - Object -> Page Layout -> New -> Remove SSN & National Insurance Nbr Fields
+  -  Step # 3 : Create Page Layout for US
+     - Object -> Page Layout -> New -> Remove SSN & National Insurance Nbr Fields
+  -  Step # 4 : Create Page Layout for Uk
+  -  Step # 4 : Create Record Types
+     - Object -> Record Types -> New
+       - Enter Field Name and Field Labe;
+       - Select System Adminstrator
+       - Select Page Layout 
