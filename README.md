@@ -176,8 +176,12 @@
        - Select the pick list by editing (add only Bharat data and remove the other countries data from the select boxes)
 
 ## Validation Rules
-- checks for the below before saving the record in the salesforce db
+- checks for the below by the salesforce before saving the record in the db. Can be considered as standard rules
   - field length
   - field type
   - unique
-- 
+- Validation rules should always return either true or false only
+  - if false => record will be saved to salesforce db
+  - if true  => displays error messages which was set when you were creating the validation rules   
+- Use Case
+  - In Object -> Click on Validations -> New 
