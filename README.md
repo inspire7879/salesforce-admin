@@ -199,4 +199,10 @@
 	  - select Mobile and actions for lighting view, quick actions are for classic view.
 		- drag and drop the new action in the appropriate field
 		
-## 
+## Process Automation
+- 4 process automation are available
+  - workflow
+  - process builder
+  - flow
+  - approval process
+-   
