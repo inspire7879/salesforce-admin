@@ -185,3 +185,19 @@
   - if true  => displays error messages which was set when you were creating the validation rules   
 - Use Case
   - In Object -> Click on Validations -> New 
+
+
+
+## Buttons, Links & Actions
+- Buttons and Links are used for classic view
+- Actions will be used for lightning view
+- Navigation
+  - in object -> Button , Link & Actions
+- Use Case ::: Create Action 
+	- note 
+		- new action created can be set only in page layout
+	  - select Mobile and actions for lighting view, quick actions are for classic view.
+		- drag and drop the new action in the appropriate field
+		
+## 
+		
